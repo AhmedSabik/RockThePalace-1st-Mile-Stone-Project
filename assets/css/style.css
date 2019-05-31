@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+header {
+    margin: 0;
+}
+
+/* -----------------------------colours */
+
+.bg-navbar-left {
+    opacity: 1;
+    background-color: #000000;
+}
+
+.bg-navbar-right {
+    opacity: 1;
+    background-color: #000000;
+}
+
+
+
+/* -----------------------------navbar left */
+
+.logo {
+    
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 20px;
+    
+}
+
+
+
+.logo a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+.navbar-left {
+    background-size: cover;
+    height: 70px;
+    text-align: center;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .navbar-left {
+        background-size: cover;
+        height: 100px;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+
+/* -----------------------------navbar right */
+
+/* ------for small screens */
+
+.navbar-right {
+    height: 50px;
+    padding: 0;
+    text-align: center;
+}
+
+
+.menuitems {
+    font-size: 12px;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    
+}
+
+.menuitems a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menuitems span {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding-right: 0px;
+}
+
+
+/* ------for large screens */
+
+@media screen and (min-width: 768px) {
+    
+    .navbar-right {
+        height: 100px;
+        padding: 0;
+        text-align: right;
+    }
+
+    .menuitems {
+        font-size: 14px;
+        padding: 0;
+        margin-top: 60px;
+        margin-right: 20px;
+    }
+    
+    .menuitems span {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 200;
+        letter-spacing: 2px;
+        padding-right: 10px;
+    }
+}
