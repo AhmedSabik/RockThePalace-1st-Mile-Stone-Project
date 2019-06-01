@@ -129,3 +129,20 @@ header {
 
 }
 
+
+/* -----------------------------Section */
+
+section {
+    background-color: #ffffff; 
+    min-height: 300px;
+}
+
+
+
+/* -----------------------------Footer */
+
+footer {
+    opacity: 1;
+    background-color: #000000;
+    min-height: 100px;
+}
