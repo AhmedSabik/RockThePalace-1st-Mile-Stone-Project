@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/*@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css?family=Exo:300,400,500,600,700,800,900&display=swap" rel="stylesheet"');
+
 
 header {
     margin: 0;
@@ -143,6 +148,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     transition: all .5s ease-in-out;
     min-height: 600px;
     top: 0;
@@ -154,6 +160,22 @@ header {
 }
 
 
+.quote-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.quote-container h4 {
+    font-family: "Exo", sans-serif;
+    color: #ffffff;
+    /*text-transform: uppercase;*/
+    font-size: 24px;
+}
+
+.quote-container p {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
 
 /* .welcome-section,
 .newalbum-section {
