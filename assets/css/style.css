@@ -7,12 +7,11 @@ header {
 /* -----------------------------colours */
 
 .bg-navbar-left {
-    opacity: 1;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .bg-navbar-right {
-    opacity: 1;
+    opacity: 0.8;
     background-color: #000000;
 }
 
@@ -89,6 +88,9 @@ header {
 
 }
 
+/*---------------------*/
+
+
 /*----------------------------Hover manipulate */
 
 .hvr-grow:hover,
@@ -98,6 +100,7 @@ header {
     transform: scale(1.2);
 }
 
+/*---------------------*/
 
 
 
@@ -132,17 +135,71 @@ header {
 
 /* -----------------------------Section */
 
-section {
-    background-color: #ffffff; 
-    min-height: 300px;
+
+
+.main-background-image {
+    background-image: url("../images/01-background-home-top-image.jpg");
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    min-height: 600px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
+
+
+
+/* .welcome-section,
+.newalbum-section {
+    background-color: #ffffff;
+    min-height: 300px;
+} */ 
+
+
+
+
+
+
+
+
 
 
 
 /* -----------------------------Footer */
 
 footer {
+    position: absolute;
+    bottom: 0;
     opacity: 1;
     background-color: #000000;
     min-height: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.social-links {
+    padding-top: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center; 
+}
+
+.copyright-footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #d9d9d9;
+    font-weight: 200;
 }
